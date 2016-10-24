@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-	<p>El pago ha sido procesado, ingresando a Consultado de Grados <a href="http://www.sunedu.gob.pe/registro-nacional-de-grados-y-titulos/">aquí</a></p>
+
+
+<form id="idPago" method="post" action="Mensaje.php">          
+   <p>Parametro 1: <input type="text" name="Param1" /></p>
+   <p>Parametro 2: <input type="text" name="Param2" /></p>
+   <input type="submit" name="submit" value="Submit" />
+</form>
+
+
 </body>
 </html>
