@@ -1,7 +1,42 @@
+body {
+	
+	font-family: "Titillium Web", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    color: #777;
+    overflow-x: hidden;
+    font-weight: 400;
+    background-color: #ffffff;
+    background-image: url(../img/fondo.png);
+    background-size: 111px 116px;
+}
+
 .table {
-	border: 2px solid #1954a1;
-	align-content: center;
-	margin: 3em 0;
-    padding: 10px;
-    border-radius: 2.5%;
+	border: 3px solid #5e4594;
+	/*align-content: center;*/
+	margin: 3em 0;/*  #e34d25 naranja   #5e4594 Purpura  #1954a1 Azul*/  
+    padding: 10px;/**/
+    border-radius: 10px;
+
+
+}
+
+.table .position-img {
+	text-align: right;
+}
+
+.table .imagen {
+	margin-top: 2em;
+	width: 40%;
+	min-width: 150px;
+}
+
+.table .title {	
+	font-weight: bolder;
+	color: #6e6f71;
+}
+
+.table .detalle {
+	font-size: 14px;
+
 }
