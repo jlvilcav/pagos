@@ -20,20 +20,20 @@ if(isset($_POST['submit']))
      /* var par1 = $_POST['Param1'];
       var par2 = $_POST['Param2'];*/
     if (isset($_POST['Param1'])) {
-   		var par1 = $_POST['Param1'];		
+   		  $par1 = $_POST['Param1'];		
 	}else {
-		var par1 = "";
+		 $par1 = "";
 	}
 
 	if (isset($_POST['Param2'])) {
-   		var par2 = $_POST['Param2'];		
+   		 $par2 = $_POST['Param2'];		
 	}else {
-		var par2 = "";
+		 $par2 = "";
 	}
 
 	if ( isset($_POST['Param1']) &&  isset($_POST['Param2'])) {
-		var par1 = $_POST['Param1'];
-		var par2 = $_POST['Param2'];
+		 $par1 = $_POST['Param1'];
+		 $par2 = $_POST['Param2'];
 	
 ?>
 
@@ -62,11 +62,11 @@ if(isset($_POST['submit']))
 
 <?php
 	} else {
-		var par1 = "";
-		var par2 = "";
+		 $par1 = "";
+		 $par2 = "";
 	}
 
-	header('refresh:3; url=http://www.sunedu.gob.pe/registro-nacional-de-grados-y-titulos/');
+	header('refresh:5; url=http://rngt.sunedu.gob.pe/');
    }
 Else {
 
@@ -81,7 +81,7 @@ Else {
 		</div>
 		<div class="row text-justify detalle">
 			<div class="large-12 medium-12 columns">
-				<span>Hubo un problema al procesar su transacción, por favor verifique sus datos correctamente <a href="http://www.sunedu.gob.pe/registro-nacional-de-grados-y-titulos/" >Registro Nacional de Grados y Títulos</a>.
+				<span>Hubo un problema al procesar su transacción, por favor verifique sus datos correctamente <a href="http://rngt.sunedu.gob.pe/" >Registro Nacional de Grados y Títulos</a>.
 				</span>
 			</div>
 		</div>
@@ -96,7 +96,7 @@ Else {
 
 
 <?php
-	header('refresh:3; url=http://www.sunedu.gob.pe/registro-nacional-de-grados-y-titulos/');
+	header('refresh:5; url=http://rngt.sunedu.gob.pe/');
 }
 ?>
 
